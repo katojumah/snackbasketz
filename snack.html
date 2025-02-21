@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snack basket</title>
+    <link rel="stylesheet" href="snack.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-1">
+          
+          <div class="logo">
+            <img src="logo.png" alt="">
+            <p>Snack basket</p>
+          </div>
+           
+           <form action="" class="search-box-container">
+             <input type="search" id="search-box" placeholder="search here...">
+             <label for="search-box" class="fas fa-search"></label>
+           </form>
+           <div id="cart-icon">
+            <img src="cart.png" alt="">
+            <span class="cart-item-count">0</span>
+           </div>
+           
+    
+        </div>
+    
+      <div class="header-2">
+    
+        <div id="menu-bar" class="fas fa-bars"></div>
+    
+        <nav class="navbar">
+          <a href="#home">home</a>
+          <a href="#about">about</a>
+          <a href="#category">category</a>
+          <a href="#product">products</a>
+          <a href="#deal">offers</a>
+          <a href="#blog">blog</a>
+          <a href="#contact">contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!--cart menu-->
+    <div class="cart">
+      <h2 class="cart-title">YOur Cart</h2>
+      <div class="cart-content">
+    <!--<div class="cart-box">
+          <img src="images/apple.jpg" alt="" class="cart-img">
+          <div class="cart-detail">
+            <h2 class="cart-product-title">Casual Black Polo</h2>
+            <span class="cart-price">$100</span>
+            <div class="cart-quantity">
+                <button id="decrement">-</button>
+                <span class="number">1</span>
+                <button id="increment">+</button>
+            </div>
+          </div>
+          <i class="ri-delete-bin-line cart-remove"></i>
+        </div>  -->
+      </div>
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">$0</div>
+      </div>
+      <button class="btn-buy">Buy Now</button>
+      <i class="ri-close-line" id="cart-close"></i>
+    </div>
+
+    <!--home section starts here-->
+  <section class="home" id="home">
+    <div class="image">
+      <img src="withmail.png" alt="">
+    </div>
+  
+    <div class="content">
+      <span>Snacking done anytime anywhere</span>
+      <h3>Your daily snack products</h3>
+      <a href="products.html" class="btn">get some</a>
+    </div>
+  
+  </section>
+
+
+     <!--about part is here-->
+     <h1 class="heading">About <span>Us</span></h1>
+     <section class="home" id="about">
+      <div class="image">
+        <img src="basket with snacks.png" alt="">
+      </div>
+    
+      <div class="content">
+        <span>We make acquiring snacks and other delicacies from nearby you very easy with no hustle </span>
+        <h3>Your daily snack products available here</h3>
+        <a href="#" class="btn">learn more...</a>
+      </div>
+    
+    </section>
+
+  
+  <!--shop by category-->
+  <section class="category" id="category">
+    <h1 class="heading">category of <span>shop</span></h1>
+  
+    <div class="box-container">
+      <div class="box">
+        <h3>local edibles</h3>
+        <p>muwogo, sambusa, chapats, pancakes, eggs</p>
+        <img src="images/banana.jpg" alt="">
+        <a href="products.html" class="btn">shop now</a>
+      </div>
+      <div class="box">
+        <h3>snacks</h3>
+        <p>gorrillos, sums, crisps, pringles</p>
+        <img src="images/cucumber.jpg" alt="">
+        <a href="products.html" class="btn">shop now</a>
+      </div>
+      <div class="box">
+        <h3>drinks</h3>
+        <p>rwenzori, sodas, juices, milk</p>
+        <img src="images/guava.jpg" alt="">
+        <a href="products.html" class="btn">shop now</a>
+      </div>
+      <div class="box">
+        <h3>candy</h3>
+        <p>lollipops, sneakers, mars, orange, chewing gum</p>
+        <img src="images/jackfruit.jpg" alt="">
+        <a href="products.html" class="btn">shop now</a>
+      </div>
+      <div class="box">
+        <h3>fruits</h3>
+        <p>apples, jackfruits, oranges, lemons, guavas, mangoes</p>
+        <img src="images/jackfruit.jpg" alt="">
+        <a href="products.html" class="btn">shop now</a>
+      </div>
+      <div class="box">
+        <h3>vegetables</h3>
+        <p>cabbages, onions, tomatoes, carrots, cucumbers</p>
+        <img src="images/jackfruit.jpg" alt="">
+        <a href="products.html" class="btn">shop now</a>
+      </div>
+    </div>
+  </section>
+
+  <!--products section-->
+  <section class="product shop" id="product">
+    <h1 class="heading" >latest <span>products</span></h1>
+  
+    <div class="box-container product-content">
+  
+      <div class="box product-box">
+        <span class="discount">-33%</span>
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img-box">
+            <img src="snacks/choco bar.jpg" alt="">
+        </div>
+        <h3 class="product-title">organic banana</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price"> Ugsh1000 <span> per unit </span></div>
+        <div class="quantity price-and-cart">
+          <span>quantity : </span>
+          <input type="number" min="1" max="1000" value="1">
+          <span> /kg </span>
+        </div>
+        <a href="#" class="btn add-cart">add to cart</a>
+      </div>
+      <div class="box product-box">
+        <span class="discount">-33%</span>
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img-box">
+            <img src="snacks/choco.jpg" alt="">
+        </div>
+        <h3 class="product-title">organic banana</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price"> Ugsh1000 <span> per unit </span></div>
+        <div class="quantity price-and-cart">
+          <span>quantity : </span>
+          <input type="number" min="1" max="1000" value="1">
+          <span> /kg </span>
+        </div>
+        <a href="#" class="btn add-cart">add to cart</a>
+      </div>
+      <div class="box product-box">
+        <span class="discount">-33%</span>
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img-box">
+            <img src="snacks/cream.jpg" alt="">
+        </div>    
+        <h3 class="product-title">organic banana</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price"> Ugsh1000 <span> per unit </span></div>
+        <div class="quantity price-and-cart">
+          <span>quantity : </span>
+          <input type="number" min="1" max="1000" value="1">
+          <span> /kg </span>
+        </div>
+        <a href="#" class="btn add-cart">add to cart</a>
+      </div>
+      <div class="box product-box">
+        <span class="discount">-33%</span>
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img-box">
+            <img src="snacks/creamycream.jpg" alt="">
+        </div>
+        <h3 class="product-title">organic banana</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price"> Ugsh1000 <span> per unit </span></div>
+        <div class="quantity price-and-cart">
+          <span>quantity : </span>
+          <input type="number" min="1" max="1000" value="1">
+          <span> /kg </span>
+        </div>
+        <a href="#" class="btn add-cart">add to cart</a>
+      </div>
+      <div class="box product-box">
+        <span class="discount">-33%</span>
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img-box">
+            <img src="snacks/daizys.jpg" alt="">
+        </div>
+        <h3 class="product-title">organic banana</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price"> Ugsh1000 <span> per unit </span></div>
+        <div class="quantity price-and-cart">
+          <span>quantity : </span>
+          <input type="number" min="1" max="1000" value="1">
+          <span> /kg </span>
+        </div>
+        <a href="#" class="btn add-cart">add to cart</a>
+      </div>
+      <div class="box product-box">
+        <span class="discount">-33%</span>
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img-box">
+            <img src="snacks/ginger bisc.jpg" alt="">
+        </div>    
+        <h3 class="product-title">organic banana</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price"> Ugsh1000 <span> per unit </span></div>
+        <div class="quantity price-and-cart">
+          <span>quantity : </span>
+          <input type="number" min="1" max="1000" value="1">
+          <span> /kg </span>
+        </div>
+        <a href="#" class="btn add-cart">add to cart</a>
+      </div>
+      <div class="box product-box">
+        <span class="discount">-33%</span>
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img-box">
+            <img src="snacks/lemon bisc.jpg" alt="">
+        </div>    
+        <h3 class="product-title">organic banana</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price"> Ugsh1000 <span> per unit </span></div>
+        <div class="quantity price-and-cart">
+          <span>quantity : </span>
+          <input type="number" min="1" max="1000" value="1">
+          <span> /kg </span>
+        </div>
+        <a href="#" class="btn add-cart">add to cart</a>
+      </div>
+      <div class="box product-box">
+        <span class="discount">-33%</span>
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img-box">
+            <img src="snacks/mars.jpg" alt="">
+        </div>    
+        <h3 class="product-title">organic banana</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price"> Ugsh1000 <span> per unit </span></div>
+        <div class="quantity price-and-cart">
+          <span>quantity : </span>
+          <input type="number" min="1" max="1000" value="1">
+          <span> /kg </span>
+        </div>
+        <a href="#" class="btn add-cart">add to cart</a>
+      </div>
+      <div class="box product-box">
+        <span class="discount">-33%</span>
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img-box">
+            <img src="snacks/milk bisc.jpg" alt="">
+        </div>    
+        <h3 class="product-title">organic banana</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price"> Ugsh1000 <span> per unit </span></div>
+        <div class="quantity price-and-cart">
+          <span>quantity : </span>
+          <input type="number" min="1" max="1000" value="1">
+          <span> /kg </span>
+        </div>
+        <a href="#" class="btn add-cart">add to cart</a>
+      </div>
+    </div>
+  </section>
+
+  <!--deal section-->
+  <section class="deal" id="deal">
+
+    <div class="content">
+      <h3 class="title">Deal of the day</h3>
+      <p>Limited snacking offers, catch them while still hot</p>
+
+  
+    <!--count down part-->
+      <div class="count-down">
+        <div class="box">
+          <h3 id="day">00</h3>
+          <span>day</span>
+        </div>
+        <div class="box">
+          <h3 id="hour">00</h3>
+          <span>hour</span>
+        </div>
+        <div class="box">
+          <h3 id="minute">00</h3>
+          <span>minute</span>
+        </div>
+        <div class="box" >
+          <h3 id="second">00</h3>
+          <span>second</span>
+        </div>
+        <div class="box" id="next">
+          <img src="offer.png" alt="">
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+<!--banners about section-->
+<h1 class="heading">snack <span>Blog</span></h1>
+<section class="banner-container" id="blog">
+  
+  <div class="banner">
+    <img src="images/apple.jpg" alt="">
+    <div class="content">
+      <h3>special offers</h3>
+      <p>upto 45%</p>
+      <a href="#" class="btn">check out</a>
+    </div>
+  </div>
+  <div class="banner">
+    <img src="images/avocado.jpg" alt="">
+    <div class="content">
+      <h3>limited offer</h3>
+      <p>upto 50% off</p>
+      <a href="#" class="btn">check out</a>
+    </div>
+  </div>
+</section>
+
+
+<!--contact us part-->
+<section class="contact" id="contact">
+    <h1 class="heading"> <span>contact</span> us </h1>
+  
+    <form action="">
+  
+      <div class="inputBox">
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email">
+      </div>
+      <div class="inputBox">
+        <input type="number" placeholder="number">
+        <input type="text" placeholder="subject">
+      </div>
+  
+      <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+  
+      <input type="submit" value="send message" class="btn">
+    </form>
+  
+  
+  </section>
+
+
+
+  <!--newsletter-->
+  <section class="newsletter">
+
+    <h3>subscribe us for latest updates</h3>
+  
+    <form action="">
+      <input  class="box" type="email" placeholder="enter your email">
+      <input type="submit" value="subscribe" class="btn">
+    </form>
+  </section>
+
+  <!--footer part section-->
+  <section class="footer">
+
+    <div class="box-container">
+     
+      <div class="box">
+        <a href="#" class="logo"><img src="cart.png" alt=""></i>groco</a>
+        <p>Order and get your snacks from near you within the comfort of your home </p>
+        <div class="share">
+          <a href="#" class="btn fab fa-facebook"><img src="icons/facebook.jpg" alt=""></a>
+          <a href="#" class="btn fab fa-twitter"><img src="icons/twitter (2).jpg" alt=""></a>
+          <a href="#" class="btn fab fa-instagram"><img src="icons/insta.jpg" alt=""></a>
+          <a href="#" class="btn fab fa-linkedin"><img src="icons/telegram.jpg" alt=""></a>
+        </div>
+      </div>
+  
+      <div class="box">
+        <h3>Get in touch</h3>
+        <div class="links">
+          <a href="#"><img src="icons/facebook.jpg" alt="">location</a> <br>
+          <a href="#"><img src="icons/call.jpg" alt="">0770618553</a><br>
+          <a href="#"><img src="icons/mail.jpg" alt="">snackbasket6@gmail.com</a><br>
+          <a href="#"><img src="icons/mail.jpg" alt="">jumahkatongole1@gmail.com</a><br>
+        </div>
+      </div>
+      <div class="box">
+        <h3>quick links</h3>
+        <div class="links">
+          <a href="#home">home</a><br>
+          <a href="#about">about</a><br>
+          <a href="#category">category</a><br>
+          <a href="#product">products</a><br>
+          <a href="#deal">offers</a><br>
+          <a href="#blog">blog</a><br>
+          <a href="#contact">contact</a><br>
+        </div>
+      </div>
+    </div>
+    <h1 class="credit">created by <span>katongole dev</span> | all rights reserved</h1>
+  </section>
+  
+</body>
+<script src="snack.js"></script>
+<script src="script.js"></script>
+</html>
